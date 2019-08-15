@@ -1,0 +1,17 @@
+﻿gl_core_4_3.obj : error LNK2019: unresolved external symbol __imp__wglGetProcAddress@4 referenced in function "int (__stdcall*__cdecl WinGetProcAddress(char const *))(void)" (?WinGetProcAddress@@YAP6GHXZPBD@Z)
+TeapotAD.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _wmain
+TeapotAD.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _wmain
+TeapotAD.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _wmain
+TeapotAD.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _wmain
+TeapotAD.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function "void __cdecl mainLoop(void)" (?mainLoop@@YAXXZ)
+TeapotAD.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function "void __cdecl mainLoop(void)" (?mainLoop@@YAXXZ)
+TeapotAD.obj : error LNK2019: unresolved external symbol _glfwGetKey referenced in function "void __cdecl mainLoop(void)" (?mainLoop@@YAXXZ)
+TeapotAD.obj : error LNK2019: unresolved external symbol _glfwGetMouseButton referenced in function "void __cdecl update(float)" (?update@@YAXM@Z)
+TeapotAD.obj : error LNK2019: unresolved external symbol _glfwGetCursorPos referenced in function "void __cdecl update(float)" (?update@@YAXM@Z)
+TeapotAD.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function _wmain
+TeapotAD.obj : error LNK2019: unresolved external symbol _glfwSetScrollCallback referenced in function _wmain
+TeapotAD.obj : error LNK2019: unresolved external symbol _glfwGetTime referenced in function "void __cdecl mainLoop(void)" (?mainLoop@@YAXXZ)
+TeapotAD.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _wmain
+TeapotAD.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function "void __cdecl mainLoop(void)" (?mainLoop@@YAXXZ)
+..\..\GLFW\glfw-3.2.1.bin.WIN64\lib-vc2015\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\talie\Documents\Lab_Lighting (1)\Lab_Lighting\TeapotAD\Debug\TeapotAD.exe : fatal error LNK1120: 15 unresolved externals
